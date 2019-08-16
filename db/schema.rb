@@ -12,9 +12,9 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
-  create_table "products", force: :cascade do |t|
-    t.string  "description"
-    t.integer "price"
+  create_table "coupons", force: :cascade do |t|
+    t.string "coupon_code"
+    t.string "store"
   end
 
 end
